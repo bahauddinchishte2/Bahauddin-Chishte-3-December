@@ -17,9 +17,11 @@ export const personalInfo: PersonalInfo = {
   bio: "I'm a software engineer specializing in building exceptional digital experiences. Currently focused on building accessible, human-centered products.",
   images: [
     'https://avatars.githubusercontent.com/u/91181868?v=4',
-    'https://flic.kr/p/2qDaNpE',
-    'https://drive.google.com/file/d/1RUntMuu4lTsg7apT6e0j7Lj5VHUMSoyW/view?usp=sharing',
-    'https://drive.google.com/file/d/1RUntMuu4lTsg7apT6e0j7Lj5VHUMSoyW/view?usp=sharing'
+    'https://live.staticflickr.com/65535/54241877452_39dc62951f_k.jpg',
+    'https://live.staticflickr.com/65535/54242780096_6fd0e9f8cd_k.jpg',
+    'https://live.staticflickr.com/65535/54242779836_4c08f24151_k.jpg'
+    
+    
   ],
   contact: {
     email: 'bahauddin.co@gmail.com',
