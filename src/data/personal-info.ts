@@ -18,12 +18,12 @@ export const personalInfo: PersonalInfo = {
   images: [
     'https://avatars.githubusercontent.com/u/91181868?v=4',
     'https://drive.google.com/file/d/1RUntMuu4lTsg7apT6e0j7Lj5VHUMSoyW/view?usp=sharing',
-    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80'
+    'https://drive.google.com/file/d/1RUntMuu4lTsg7apT6e0j7Lj5VHUMSoyW/view?usp=sharing',
+    'https://drive.google.com/file/d/1RUntMuu4lTsg7apT6e0j7Lj5VHUMSoyW/view?usp=sharing'
   ],
   contact: {
-    email: 'hello@example.com',
-    phone: '+1 (555) 123-4567',
+    email: 'bahauddin.co@gmail.com',
+    phone: '+880 1621 28 5057',
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',
   },
