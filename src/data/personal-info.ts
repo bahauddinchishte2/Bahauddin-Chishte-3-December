@@ -17,7 +17,7 @@ export const personalInfo: PersonalInfo = {
   bio: "I'm a software engineer specializing in building exceptional digital experiences. Currently focused on building accessible, human-centered products.",
   images: [
     'https://avatars.githubusercontent.com/u/91181868?v=4',
-    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80',
+    'https://drive.google.com/file/d/1RUntMuu4lTsg7apT6e0j7Lj5VHUMSoyW/view?usp=sharing',
     'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
     'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80'
   ],
