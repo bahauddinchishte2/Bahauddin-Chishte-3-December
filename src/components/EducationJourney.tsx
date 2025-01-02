@@ -12,22 +12,15 @@ const timeline = [
   },
   {
     title: "Gap Years & Self-Learning",
-    institution: "Self-Directed Education",
+    institution: "Entrepreneurial Projects & Work",
     period: "2022-2024",
     description: "Utilized this time to learn programming, build projects, and create social impact through technology initiatives. Completed various online courses in computer science and web development.",
     icon: BookOpen
   },
   {
-    title: "Entrepreneurial Projects",
-    institution: "Social Business Initiatives",
-    period: "2021-2023",
-    description: "Led multiple tech-based social projects, gaining hands-on experience in both programming and project management while making a difference in the community.",
-    icon: Rocket
-  },
-  {
     title: "High School Graduate",
-    institution: "Local High School, Bangladesh",
-    period: "2020",
+    institution: "Government Tolaram College, Narayanganj",
+    period: "Feb 2022",
     description: "Graduated with distinction, focusing on science and mathematics.",
     icon: School
   }
