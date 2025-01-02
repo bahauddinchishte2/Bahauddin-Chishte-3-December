@@ -4,18 +4,18 @@ import { GraduationCap, BookOpen, Rocket, School, ChevronDown, ChevronUp } from 
 const timeline = [
 
   {
-    title: "Gap Years & Self-Learning",
-    institution: "Self-Directed Education",
-    period: "2020-2023",
-    description: "Utilized this time to learn programming, build projects, and create social impact through technology initiatives. Completed various online courses in computer science and web development.",
-    icon: BookOpen
-  },
-  {
     title: "College Aspirations",
-    institution: "Washington and Lee University",
-    period: "2024 Goal",
+    institution: "My dream uni",
+    period: "2025 Goal",
     description: "Pursuing admission to combine Computer Science major with Entrepreneurship minor, aiming to create technology solutions for social good.",
     icon: GraduationCap
+  },
+  {
+    title: "Gap Years & Self-Learning",
+    institution: "Self-Directed Education",
+    period: "2022-2024",
+    description: "Utilized this time to learn programming, build projects, and create social impact through technology initiatives. Completed various online courses in computer science and web development.",
+    icon: BookOpen
   },
   {
     title: "Entrepreneurial Projects",
