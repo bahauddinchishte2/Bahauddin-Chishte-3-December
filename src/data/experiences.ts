@@ -7,11 +7,11 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: 'Senior Software Engineer',
-    company: 'Tech Solutions Inc.',
-    period: '2021 - Present',
+    title: 'Fulfilment Lean',
+    company: 'oLab.',
+    period: '2024 - Present',
     description:
-      'Led development of cloud-native applications and microservices architecture.',
+      'helping 4 clients in evry task from  website design to digital marketing to managemtn',
   },
   {
     title: 'Software Developer',
