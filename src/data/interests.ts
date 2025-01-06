@@ -6,19 +6,19 @@ export interface Interest {
 
 export const interests: Interest[] = [
   {
-    title: 'Photography',
+    title: 'Social Work',
     description:
       'Capturing moments and exploring visual storytelling through street and landscape photography.',
     icon: 'Camera',
   },
   {
-    title: 'Open Source',
+    title: 'Poverty Alleviation',
     description:
       'Contributing to and maintaining open source projects that make a difference.',
     icon: 'Code2',
   },
   {
-    title: 'AI & Machine Learning',
+    title: 'Startup & Entrepreneurship',
     description:
       'Exploring the frontiers of artificial intelligence and its applications.',
     icon: 'Brain',
