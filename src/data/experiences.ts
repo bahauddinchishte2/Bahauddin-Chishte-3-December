@@ -6,7 +6,7 @@ export interface Experience {
   achievements: string[];
   skills: string[];
   type: 'full-time' | 'part-time' | 'freelance' | 'contract';
-  location: string;
+  // location: string;
   url?: string;
 }
 
@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     company: 'oLab.',
     period: '2024 - Present',
     type: 'full-time',
-    location: 'Remote',
+    // location: 'Remote',
     description: 'Leading client projects and managing digital solutions from conception to delivery.',
     achievements: [
       'Successfully managed 4 concurrent client projects',
@@ -31,7 +31,7 @@ export const experiences: Experience[] = [
     company: 'Vocabulary Builder',
     period: 'Dec 2023 - Jun 2024',
     type: 'contract',
-    location: 'Remote',
+    // location: 'Remote',
     description: 'Developed educational content and maintained full-stack applications for language learning.',
     achievements: [
       'Created 200+ educational content pieces',
@@ -46,7 +46,7 @@ export const experiences: Experience[] = [
     company: 'StartUp Hub',
     period: '2018 - 2019',
     type: 'part-time',
-    location: 'Dhaka, Bangladesh',
+    // location: 'Dhaka, Bangladesh',
     description: 'Built responsive web interfaces and implemented RESTful APIs for startup clients.',
     achievements: [
       'Developed 5+ client websites',
