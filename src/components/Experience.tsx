@@ -1,12 +1,31 @@
 import React, { useState } from 'react';
 import { experiences } from '../data';
-import { Calendar, Building2, ChevronDown, ChevronUp, ArrowRight } from 'lucide-react';
+import { 
+  Building2, 
+  Calendar, 
+  MapPin, 
+  ExternalLink,
+  ChevronDown,
+  ChevronUp,
+  Clock,
+  Trophy
+} from 'lucide-react';
 
 export default function Experience() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [expandedId, setExpandedId] = useState<number | null>(null);
 
-  const toggleExperience = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+  const toggleExpand = (index: number) => {
+    setExpandedId(expandedId === index ? null : index);
+  };
+
+  const getTypeColor = (type: string) => {
+    const colors = {
+      'full-time': 'bg-green-500/20 text-green-400',
+      'part-time': 'bg-blue-500/20 text-blue-400',
+      'freelance': 'bg-purple-500/20 text-purple-400',
+      'contract': 'bg-orange-500/20 text-orange-400'
+    };
+    return colors[type as keyof typeof colors] || 'bg-slate-500/20 text-slate-400';
   };
 
   return (
@@ -17,23 +36,20 @@ export default function Experience() {
           <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-50" />
         </h2>
         <p className="text-slate-400 text-lg mt-4">
-          A journey through my professional career in software development.
+          My professional journey in technology and entrepreneurship.
         </p>
       </div>
 
       <div className="space-y-4">
         {experiences.map((experience, index) => (
           <div 
-            key={index} 
-            className={`
-              bg-slate-900/50 rounded-lg overflow-hidden transition-all duration-300 
-              border border-slate-800/50 hover:border-blue-500/30
-              ${openIndex === index ? 'ring-1 ring-blue-500/50' : ''}
-            `}
+            key={index}
+            className="bg-slate-900/50 rounded-lg border border-slate-800/50 hover:border-blue-500/30 transition-all duration-300"
           >
+            {/* Header - Always Visible */}
             <button
-              onClick={() => toggleExperience(index)}
-              className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-slate-800/50 transition-colors"
+              onClick={() => toggleExpand(index)}
+              className="w-full px-6 py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-left"
             >
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0">
@@ -43,44 +59,80 @@ export default function Experience() {
                   <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
                     {experience.title}
                   </h3>
-                  <div className="flex items-center gap-4 mt-1">
+                  <div className="flex flex-wrap items-center gap-3 mt-1">
                     <span className="text-blue-400">{experience.company}</span>
-                    <div className="flex items-center gap-1.5 text-slate-500">
-                      <Calendar className="w-4 h-4" />
-                      <span className="text-sm">{experience.period}</span>
-                    </div>
+                    <span className={`px-2 py-0.5 rounded-full text-xs ${getTypeColor(experience.type)}`}>
+                      {experience.type}
+                    </span>
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-3">
-                <ArrowRight className={`w-5 h-5 text-slate-400 transition-transform duration-300 ${openIndex === index ? 'rotate-90' : ''}`} />
+              <div className="flex items-center gap-4 text-sm text-slate-400">
+                <div className="flex items-center gap-1.5">
+                  <Calendar className="w-4 h-4" />
+                  <span>{experience.period}</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <MapPin className="w-4 h-4" />
+                  <span>{experience.location}</span>
+                </div>
+                {expandedId === index ? (
+                  <ChevronUp className="w-5 h-5" />
+                ) : (
+                  <ChevronDown className="w-5 h-5" />
+                )}
               </div>
             </button>
-            
-            {openIndex === index && (
-              <div className="px-6 py-5 bg-slate-800/30 border-t border-slate-700/50">
+
+            {/* Expanded Content */}
+            {expandedId === index && (
+              <div className="px-6 py-5 border-t border-slate-800/50">
                 <div className="pl-16">
-                  <div className="prose prose-invert max-w-none">
-                    <p className="text-slate-300 leading-relaxed">
-                      {experience.description}
-                    </p>
-                    
-                    {/* You can add more details like: */}
-                    <ul className="mt-4 space-y-2 text-slate-400">
-                      <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
-                        Led development of cloud-native applications
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
-                        Improved system performance by 40%
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
-                        Mentored junior developers
-                      </li>
+                  {/* Description */}
+                  <p className="text-slate-300 leading-relaxed mb-6">
+                    {experience.description}
+                  </p>
+
+                  {/* Key Achievements */}
+                  <div className="mb-6">
+                    <h4 className="text-white font-medium mb-3 flex items-center gap-2">
+                      <Trophy className="w-4 h-4 text-blue-400" />
+                      Key Achievements
+                    </h4>
+                    <ul className="space-y-2">
+                      {experience.achievements.map((achievement, i) => (
+                        <li key={i} className="flex items-center gap-2 text-slate-400">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-400" />
+                          {achievement}
+                        </li>
+                      ))}
                     </ul>
                   </div>
+
+                  {/* Skills */}
+                  <div className="flex flex-wrap gap-2">
+                    {experience.skills.map((skill, i) => (
+                      <span 
+                        key={i}
+                        className="px-3 py-1 bg-slate-800/50 text-slate-300 rounded-full text-sm"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Company Link */}
+                  {experience.url && (
+                    <a
+                      href={experience.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors mt-4 text-sm"
+                    >
+                      Visit Company
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </div>
             )}
