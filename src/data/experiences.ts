@@ -70,5 +70,20 @@ export const experiences: Experience[] = [
     ],
     skills: ['Customer Support', 'Communication', 'Management', 'Data Analysis','Sales'],
     url: 'passivejournal.com'
+  },
+  {
+    title: ' Community Manager',
+    company: 'Apars Classroom – ',
+    period: 'Jan 2020 - July 2021',
+    type: 'part-time',
+    // location: 'Dhaka, Bangladesh',
+    description: 'Bangladesh 2nd Largest edtech platform that offers K-12 academic courses via 3D lectures.',
+    achievements: [
+      'Developed 5+ client websites',
+      'Reduced page load time by 40%',
+      'Implemented mobile-first design approach'
+    ],
+    skills: ['People Management', 'Digital Marketing', 'Sales', 'Data Analysis','Communication'],
+    url: 'aparsclasroom.com'
   }
 ];
