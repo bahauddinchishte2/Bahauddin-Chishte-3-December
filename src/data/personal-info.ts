@@ -23,7 +23,7 @@ export const personalInfo: PersonalInfo = {
     
   ],
   contact: {
-    email: 'bahauddin.co@gmail.com',
+    email: 'bahauddin.chishte@gmail.com',
     phone: '+880 1621 28 5057',
     github: 'https://github.com',
     linkedin: 'https://www.linkedin.com/in/bahauddin-chishte/',
