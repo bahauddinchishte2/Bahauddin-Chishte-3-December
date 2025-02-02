@@ -27,7 +27,7 @@ const projects = [
     description: "Real-time collaboration tool for remote teams with advanced features.",
     tech: ["Next.js", "Socket.io", "MongoDB"],
     live: "https://devsonket.com",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+    image: "https://live.staticflickr.com/65535/54301984603_c9be18679a_k.jpg"
   },
 ];
 
