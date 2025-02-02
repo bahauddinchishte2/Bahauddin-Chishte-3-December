@@ -6,28 +6,28 @@ const projects = [
     title: "Earn4edu",
     description: "A revolutionary AI-powered platform that transforms how we interact with data.",
     tech: ["React", "TypeScript", "TensorFlow"],
-    live: "Earn4edu.org",
+    live: "www.Earn4edu.org",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Ajker-Bazardor.onfo",
     description: "Real-time collaboration tool for remote teams with advanced features.",
     tech: ["Next.js", "Socket.io", "MongoDB"],
-    live: "Ajker-Bazardor.onfo",
+    live: "www.Ajker-Bazardor.onfo",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Agency Website, oLab",
     description: "Real-time collaboration tool for remote teams with advanced features.",
     tech: ["Next.js", "Socket.io", "MongoDB"],
-    live: "olab.com.au",
+    live: "www.olab.com.au",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Dev Sonket",
     description: "Real-time collaboration tool for remote teams with advanced features.",
     tech: ["Next.js", "Socket.io", "MongoDB"],
-    live: "devsonket.com",
+    live: "www.devsonket.com",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
   },
 ];
