@@ -24,7 +24,7 @@ export const experiences: Experience[] = [
     ],
     skills: ['Project Management', 'Digital Marketing', 'Web Development', 'Client Relations'],
     url: 'https://olab.com.au',
-    logo: 'https://web.archive.org/web/20231026041914im_/https://olab.com.au/dist/images/olab-1.svg'
+    logo: 'https://live.staticflickr.com/65535/54301804601_f423b77250_b.jpg'
   },
   {
     title: 'Product Developer & Content Specialist',
@@ -54,7 +54,7 @@ export const experiences: Experience[] = [
     ],
     skills: ['React', 'Node.js', 'REST APIs', 'Responsive Design'],
     url: 'https://startuphub.com',
-    logo: 'https://dl.aemers.com/Aemers-3-line-version.png'
+    logo: 'https://live.staticflickr.com/65535/54300941782_447110db03_b.jpg'
   },
   {
     title: 'Customer Support & Community Specialist',
@@ -69,7 +69,7 @@ export const experiences: Experience[] = [
     ],
     skills: ['Customer Support', 'Communication', 'Management', 'Data Analysis','Sales'],
     url: 'https://passivejournal.com',
-    logo: 'https://passivejournal.com/wp-content/uploads/2023/02/Untitled-design.png'
+    logo: 'https://live.staticflickr.com/65535/54302064994_aba9830668_b.jpg'
   },
   {
     title: 'Community Manager',
@@ -84,6 +84,6 @@ export const experiences: Experience[] = [
     ],
     skills: ['People Management', 'Digital Marketing', 'Sales', 'Data Analysis','Communication'],
     url: 'https://aparsclasroom.com',
-    logo: 'https://aparsclassroom.com/images/logo.png'
+    logo: 'https://live.staticflickr.com/65535/54302067168_1275cfc288_b.jpg'
   }
 ];
