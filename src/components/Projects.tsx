@@ -17,7 +17,7 @@ const projects = [
     image: "https://live.staticflickr.com/65535/54301984598_2645d9dc9a_k.jpg" },
   {
     title: "Agency Website, oLab",
-    description: "Real-time collaboration tool for remote teams with advanced features.",
+    description: "Real-time collaboration tool for remote teams with advanced features.Real-time collaboration tool for remote teams with advanced featuresReal-time collaboration tool for remote teams with advanced features",
     tech: ["Next.js", "Socket.io", "MongoDB"],
     live: "https://olab.com.au",
     image: "https://live.staticflickr.com/65535/54301972399_fbe8390645_k.jpg"
