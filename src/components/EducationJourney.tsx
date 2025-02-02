@@ -3,13 +3,13 @@ import { GraduationCap, BookOpen, Rocket, School, ChevronDown, ChevronUp } from 
 
 const timeline = [
 
-  {
-    title: "College Aspirations",
-    institution: "My dream uni",
-    period: "2025 Goal",
-    description: "Pursuing admission to combine Computer Science major with Entrepreneurship minor, aiming to create technology solutions for social good.",
-    icon: GraduationCap
-  },
+  // {
+  //   title: "College Aspirations",
+  //   institution: "My dream uni",
+  //   period: "2025 Goal",
+  //   description: "Pursuing admission to combine Computer Science major with Entrepreneurship minor, aiming to create technology solutions for social good.",
+  //   icon: GraduationCap
+  // },
   {
     title: "Gap Years & Self-Learning",
     institution: "Entrepreneurial Projects & Work",
@@ -21,7 +21,7 @@ const timeline = [
     title: "High School Graduate",
     institution: "Government Tolaram College, Narayanganj",
     period: "Feb 2022",
-    description: "Graduated with distinction, focusing on science and mathematics.",
+    description: "Graduated from Science Group with the final GPA of 4.92/5.",
     icon: School
   }
 ];
@@ -37,12 +37,12 @@ export default function EducationJourney() {
       >
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2 relative inline-block">
-            Education Journey
+            Education
             <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-50" />
           </h2>
-          <p className="text-slate-400 text-lg mt-4">
+          {/* <p className="text-slate-400 text-lg mt-4">
             A unique path of self-directed learning and growth.
-          </p>
+          </p> */}
         </div>
         <div className="p-2 -mr-2 rounded-lg group-hover:bg-slate-800/50 transition-colors">
           {isOpen ? (
