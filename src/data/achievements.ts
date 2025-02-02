@@ -50,6 +50,16 @@ export const achievements: Achievement[] = [
       'https://live.staticflickr.com/65535/54242780096_54ebefcb55_b.jpg',
   },
   {
+    title: 'Taught Programming to Student With Special Needs.',
+    category: 'Volunteering',
+    date: '2023',
+    organization: 'InclusionX',
+    description:
+      'This is Abdullah (A student with special needs). I tought him basics of programing and logic.',
+    image:
+      'https://live.staticflickr.com/65535/54243013718_099964aaae_b.jpg',
+  },
+  {
     title: 'Innovation Award',
     category: 'awards',
     date: '2023',
