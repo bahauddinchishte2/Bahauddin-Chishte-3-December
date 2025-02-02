@@ -19,7 +19,7 @@ export const achievements: Achievement[] = [
       'https://live.staticflickr.com/65535/54243013808_38b84b8852_b.jpg',
   },
   {
-    title: 'Tought low income kids',
+    title: 'Tought underprivileged kids',
     category: 'Volunteering',
     date: '2023',
     organization: 'Samata School Bangladesh',
