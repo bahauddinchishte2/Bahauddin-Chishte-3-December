@@ -19,6 +19,36 @@ export const achievements: Achievement[] = [
       'https://live.staticflickr.com/65535/54243013808_38b84b8852_b.jpg',
   },
   {
+    title: 'Tought low income kids',
+    category: 'volunteering',
+    date: '2023',
+    organization: 'Samata School Bangladesh',
+    description:
+      'Achieved professional certification demonstrating expertise in designing distributed systems and deploying applications on AWS infrastructure.',
+    image:
+      'https://live.staticflickr.com/65535/54241877137_db52c069b3_b.jpg',
+  },
+  {
+    title: 'My students from Samata school Bangladesh',
+    category: 'volunteering',
+    date: '2022',
+    organization: 'Samata School Bangladesh',
+    description:
+      'Achieved professional certification demonstrating expertise in designing distributed systems and deploying applications on AWS infrastructure.',
+    image:
+      'https://live.staticflickr.com/65535/54243017834_01abae974b_b.jpg',
+  },
+  {
+    title: 'Taught Abdullah basics of programming',
+    category: 'volunteering',
+    date: '2023',
+    organization: 'InclusionX',
+    description:
+      'Achieved professional certification demonstrating expertise in designing distributed systems and deploying applications on AWS infrastructure.',
+    image:
+      'https://live.staticflickr.com/65535/54243013718_099964aaae_b.jpg',
+  },
+  {
     title: 'Innovation Award',
     category: 'awards',
     date: '2023',
