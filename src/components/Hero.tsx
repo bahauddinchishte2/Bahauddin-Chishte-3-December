@@ -30,7 +30,7 @@ export default function Hero() {
                     <span className="font-medium">LinkedIn</span>
                     <ExternalLink className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                   </a>
-                  <a 
+                  {/* <a 
                     href={personalInfo.contact.github}
                     className="flex items-center gap-2 hover:text-slate-200 transition-colors group"
                     target="_blank"
@@ -38,7 +38,7 @@ export default function Hero() {
                   >
                     <span className="font-medium">GitHub</span>
                     <ExternalLink className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -88,7 +88,7 @@ export default function Hero() {
         <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700/50 mt-6">
           <div className="p-6 sm:p-8 lg:p-12">
             <div className="flex items-center gap-2 text-blue-400 mb-4">
-              <span className="text-sm font-medium">My Journey</span>
+              <span className="text-sm font-medium">What drives me forward?</span>
             </div>
             
             <div className="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
