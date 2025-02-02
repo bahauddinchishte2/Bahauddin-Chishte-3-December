@@ -7,6 +7,7 @@ const categories = [
   { id: 'certificates', label: 'Certificates', icon: GraduationCap },
   { id: 'awards', label: 'Awards', icon: Award },
   { id: 'achievements', label: 'Achievements', icon: Trophy },
+  { id: 'Volunteering', label: 'Volunteering', icon: Trophy },
 ];
 
 interface AchievementModalProps {

@@ -9,14 +9,14 @@ export interface Achievement {
 
 export const achievements: Achievement[] = [
   {
-    title: 'AWS Certified Solutions Architect',
-    category: 'certificates',
+    title: 'With my students in Inclusionx',
+    category: 'volunteering',
     date: '2023',
-    organization: 'Amazon Web Services',
+    organization: 'InclusionX',
     description:
       'Achieved professional certification demonstrating expertise in designing distributed systems and deploying applications on AWS infrastructure.',
     image:
-      'https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800&q=80',
+      'https://live.staticflickr.com/65535/54243013808_38b84b8852_b.jpg',
   },
   {
     title: 'Innovation Award',
