@@ -91,13 +91,13 @@ export default function Hero() {
               <span className="text-sm font-medium">What drives me forward?</span>
             </div>
             
-            {/* <div className="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
+            <div className="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
               <p>Growing up in an underprivileged community, I witnessed firsthand the challenges that many families face daily. These experiences didn't just shape my perspective; they ignited a passion for creating meaningful change through technology and social entrepreneurship.</p>
               
               <p>As I navigated my journey into software engineering, I carried with me a deep understanding of how technology could bridge crucial gaps in society. My background became my strength, providing unique insights into developing solutions that not only solve technical challenges but also address real social needs.</p>
               
               <p>Today, I blend my software engineering expertise with a commitment to social business initiatives. I believe technology has the power to level playing fields and create opportunities for those who need them most. This dual passion drives me to build solutions that are not just technically excellent but also socially impactful.</p>
-            </div> */}
+            </div>
 
             <div className="grid grid-cols-3 gap-3 sm:gap-4 mt-6">
               <div className="text-center sm:text-left">
@@ -109,7 +109,7 @@ export default function Hero() {
                 <div className="text-slate-400 text-xs sm:text-sm">Social Projects</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-xl sm:text-2xl font-bold text-purple-400">1000+</div>
+                <div className="text-xl sm:text-2xl font-bold text-purple-400">80000+</div>
                 <div className="text-slate-400 text-xs sm:text-sm">Lives Impacted</div>
               </div>
             </div>
