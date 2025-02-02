@@ -14,14 +14,13 @@ const projects = [
     description: "Real-time collaboration tool for remote teams with advanced features.",
     tech: ["Next.js", "Socket.io", "MongoDB"],
     live: "https://ajker-bazardor.info",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
-  },
+    image: "https://live.staticflickr.com/65535/54301984598_2645d9dc9a_k.jpg" },
   {
     title: "Agency Website, oLab",
     description: "Real-time collaboration tool for remote teams with advanced features.",
     tech: ["Next.js", "Socket.io", "MongoDB"],
     live: "https://olab.com.au",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+    image: "https://live.staticflickr.com/65535/54301972399_fbe8390645_k.jpg"
   },
   {
     title: "Dev Sonket",
