@@ -10,7 +10,7 @@ export interface Achievement {
 export const achievements: Achievement[] = [
   {
     title: 'With my students in Inclusionx',
-    category: 'volunteering',
+    category: 'Volunteering',
     date: '2023',
     organization: 'InclusionX',
     description:
@@ -20,7 +20,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: 'Tought low income kids',
-    category: 'volunteering',
+    category: 'Volunteering',
     date: '2023',
     organization: 'Samata School Bangladesh',
     description:
@@ -30,7 +30,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: 'My students from Samata school Bangladesh',
-    category: 'volunteering',
+    category: 'Volunteering',
     date: '2022',
     organization: 'Samata School Bangladesh',
     description:
@@ -38,15 +38,16 @@ export const achievements: Achievement[] = [
     image:
       'https://live.staticflickr.com/65535/54243017834_01abae974b_b.jpg',
   },
+
   {
-    title: 'Taught Abdullah basics of programming',
-    category: 'volunteering',
+    title: 'Taught Maths to Student With Special Needs.',
+    category: 'Volunteering',
     date: '2023',
     organization: 'InclusionX',
     description:
       'Achieved professional certification demonstrating expertise in designing distributed systems and deploying applications on AWS infrastructure.',
     image:
-      'https://live.staticflickr.com/65535/54243013718_099964aaae_b.jpg',
+      'https://live.staticflickr.com/65535/54242780096_54ebefcb55_b.jpg',
   },
   {
     title: 'Innovation Award',
