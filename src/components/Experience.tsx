@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { experiences } from '../data';
 import { 
-  Building2, 
   Calendar, 
   MapPin, 
   ExternalLink,
@@ -52,8 +51,12 @@ export default function Experience() {
               className="w-full px-6 py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-left"
             >
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0">
-                  <Building2 className="w-6 h-6 text-blue-400" />
+                <div className="w-12 h-12 rounded-lg bg-slate-800/50 flex items-center justify-center flex-shrink-0 overflow-hidden">
+                  <img 
+                    src={experience.logo} 
+                    alt={`${experience.company} logo`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
@@ -71,10 +74,6 @@ export default function Experience() {
                 <div className="flex items-center gap-1.5">
                   <Calendar className="w-4 h-4" />
                   <span>{experience.period}</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <MapPin className="w-4 h-4" />
-                  <span>{experience.location}</span>
                 </div>
                 {expandedId === index ? (
                   <ChevronUp className="w-5 h-5" />
