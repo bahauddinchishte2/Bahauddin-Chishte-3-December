@@ -7,7 +7,7 @@ const projects = [
     description: "A revolutionary AI-powered platform that transforms how we interact with data.",
     tech: ["React", "TypeScript", "TensorFlow"],
     live: "https://earn4edu.org",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+    image: "https://live.staticflickr.com/65535/54300859257_af9f01025c_k.jpg"
   },
   {
     title: "Ajker-Bazardor.onfo",
