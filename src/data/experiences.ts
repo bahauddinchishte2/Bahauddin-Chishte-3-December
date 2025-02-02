@@ -42,8 +42,8 @@ export const experiences: Experience[] = [
     url: 'https://vocabbuilder.com'
   },
   {
-    title: 'Junior Developer',
-    company: 'StartUp Hub',
+    title: 'Promotion And Public Relations Executive',
+    company: 'Aemers',
     period: '2018 - 2019',
     type: 'part-time',
     // location: 'Dhaka, Bangladesh',
@@ -55,5 +55,20 @@ export const experiences: Experience[] = [
     ],
     skills: ['React', 'Node.js', 'REST APIs', 'Responsive Design'],
     url: 'https://startuphub.com'
+  },
+  {
+    title: 'Customer Support & Community Specialist',
+    company: 'Passive Journal – ',
+    period: 'Jan 2022 - Dec 2022',
+    type: 'full-time',
+    // location: 'Dhaka, Bangladesh',
+    description: 'Built responsive web interfaces and implemented RESTful APIs for startup clients.',
+    achievements: [
+      'Developed 5+ client websites',
+      'Reduced page load time by 40%',
+      'Implemented mobile-first design approach'
+    ],
+    skills: ['Customer Support', 'Communication', 'Management', 'Data Analysis','Sales'],
+    url: 'passivejournal.com'
   }
 ];
