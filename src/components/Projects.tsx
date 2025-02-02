@@ -23,7 +23,7 @@ export default function Projects() {
     <section className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 lg:p-12 border border-slate-700/50" id="projects">
       <div className="max-w-2xl mb-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2 relative inline-block">
-          Featured Projects
+          Projects and Initiative
           <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-50" />
         </h2>
         <p className="text-slate-400 text-lg mt-4">

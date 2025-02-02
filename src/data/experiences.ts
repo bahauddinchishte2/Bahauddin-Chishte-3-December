@@ -27,6 +27,21 @@ export const experiences: Experience[] = [
     url: 'https://olab.com.au'
   },
   {
+    title: 'Founder',
+    company: 'oLab.',
+    period: '2024 - Present',
+    type: 'full-time',
+    // location: 'Remote',
+    description: 'Leading client projects and managing digital solutions from conception to delivery.',
+    achievements: [
+      'Successfully managed 4 concurrent client projects',
+      'Improved project delivery time by 30%',
+      'Implemented standardized project management processes'
+    ],
+    skills: ['Project Management', 'Digital Marketing', 'Web Development', 'Client Relations'],
+    url: 'https://olab.com.au'
+  },
+  {
     title: 'Product Developer & Content Specialist',
     company: 'Vocabulary Builder',
     period: 'Dec 2023 - Jun 2024',
