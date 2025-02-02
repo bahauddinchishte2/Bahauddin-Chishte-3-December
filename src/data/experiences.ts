@@ -12,9 +12,9 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: 'Fulfilment Lead',
+    title: 'Operations & Fulfillment Lead',
     company: 'oLab.',
-    period: '2024 - Present',
+    period: ' Jan 2024 - Present',
     type: 'full-time',
     description: 'Leading client projects and managing digital solutions from conception to delivery.',
     achievements: [
@@ -72,7 +72,7 @@ export const experiences: Experience[] = [
     logo: 'https://live.staticflickr.com/65535/54302064994_aba9830668_b.jpg'
   },
   {
-    title: 'Community Manager',
+    title: 'Community Manager & Sales Associate ',
     company: 'Apars Classroom',
     period: 'Jan 2020 - July 2021',
     type: 'part-time',
