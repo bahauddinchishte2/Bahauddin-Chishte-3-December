@@ -69,7 +69,19 @@ export default function Experience() {
                     {experience.title}
                   </h3>
                   <div className="flex flex-wrap items-center gap-3 mt-1">
-                    <span className="text-blue-400">{experience.company}</span>
+                    {experience.url ? (
+                      <a 
+                        href={experience.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 transition-colors"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {experience.company}
+                      </a>
+                    ) : (
+                      <span className="text-blue-400">{experience.company}</span>
+                    )}
                     <span className={`px-2 py-0.5 rounded-full text-xs ${getTypeColor(experience.type)}`}>
                       {experience.type}
                     </span>
@@ -125,19 +137,6 @@ export default function Experience() {
                       </span>
                     ))}
                   </div>
-
-                  {/* Company Link */}
-                  {experience.url && (
-                    <a
-                      href={experience.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors mt-4 text-sm"
-                    >
-                      Visit Company
-                      <ExternalLink className="w-4 h-4" />
-                    </a>
-                  )}
                 </div>
               </div>
             )}
