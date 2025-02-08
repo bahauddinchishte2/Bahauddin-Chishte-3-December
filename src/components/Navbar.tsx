@@ -43,7 +43,7 @@ export default function Navbar() {
                 Bahauddin
               </span>
               <span className="text-lg font-light text-gray-500 group-hover:text-gray-400 transition-colors duration-300">
-                C.
+                Chishte
               </span>
             </div>
             <div className="absolute inset-0 -m-3 border border-slate-800 rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 scale-95 group-hover:scale-100" />
