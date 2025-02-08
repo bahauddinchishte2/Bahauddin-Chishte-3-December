@@ -51,12 +51,12 @@ export default function Projects() {
             className="group bg-slate-900/50 rounded-xl border border-slate-800/50 overflow-hidden hover:border-blue-500/30 transition-all duration-300"
           >
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 p-4">
-              {/* Image Section */}
-              <div className="lg:col-span-5 relative h-48 lg:h-64 overflow-hidden rounded-lg">
+              {/* Image Section - Fixed aspect ratio container */}
+              <div className="lg:col-span-5 relative aspect-video rounded-lg overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-slate-900/25 to-transparent" />
               </div>

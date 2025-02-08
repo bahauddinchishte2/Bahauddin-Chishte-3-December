@@ -17,11 +17,11 @@ function VolunteerModal({ experience, onClose }: VolunteerModalProps) {
         className="bg-slate-900 rounded-xl max-w-3xl w-full overflow-hidden border border-slate-800/50"
         onClick={e => e.stopPropagation()}
       >
-        <div className="relative h-64 overflow-hidden">
+        <div className="relative aspect-video overflow-hidden">
           <img 
             src={experience.image} 
             alt={experience.title}
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent" />
           <button 
@@ -61,30 +61,20 @@ export default function Impact() {
         </p>
       </div>
 
-      {/* Volunteer Work */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {volunteerExperiences.map((experience, index) => (
           <button 
             key={index}
             onClick={() => setSelectedExperience(experience)}
             className="text-left group bg-slate-900/50 rounded-lg overflow-hidden border border-slate-800/50 hover:border-blue-500/30 transition-all duration-300"
-
           >
-
-            <div className="relative h-48 w-full">
-
+            <div className="relative aspect-video">
               <img 
-
                 src={experience.image} 
-
                 alt={experience.title}
-
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
-
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent" />
-
             </div>
 
             <div className="p-6 relative">

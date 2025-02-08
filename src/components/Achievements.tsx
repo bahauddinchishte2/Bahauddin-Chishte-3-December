@@ -22,11 +22,14 @@ function AchievementModal({ achievement, onClose }: AchievementModalProps) {
         className="bg-slate-900 rounded-lg max-w-2xl w-full overflow-hidden"
         onClick={e => e.stopPropagation()}
       >
-        <img 
-          src={achievement.image} 
-          alt={achievement.title}
-          className="w-full h-48 sm:h-64 object-cover"
-        />
+        <div className="relative aspect-video overflow-hidden">
+          <img 
+            src={achievement.image} 
+            alt={achievement.title}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900/75 to-transparent" />
+        </div>
         <div className="p-6">
           <h3 className="text-xl sm:text-2xl font-semibold text-white mb-2">{achievement.title}</h3>
           <p className="text-blue-400 mb-2">{achievement.organization}</p>
@@ -91,11 +94,11 @@ export default function Achievements() {
             onClick={() => setSelectedAchievement(achievement)}
             className="text-left bg-slate-900/50 rounded-lg overflow-hidden hover:bg-slate-900 transition-all duration-300 group border border-slate-800/50"
           >
-            <div className="relative h-32 overflow-hidden">
+            <div className="relative aspect-video overflow-hidden">
               <img 
                 src={achievement.image} 
                 alt={achievement.title}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent" />
             </div>
