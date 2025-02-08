@@ -67,9 +67,27 @@ export default function Impact() {
           <button 
             key={index}
             onClick={() => setSelectedExperience(experience)}
-            className="text-left group bg-slate-900/50 rounded-lg border border-slate-800/50 hover:border-blue-500/30 transition-all duration-300"
+            className="text-left group bg-slate-900/50 rounded-lg overflow-hidden border border-slate-800/50 hover:border-blue-500/30 transition-all duration-300"
+
           >
-            <div className="p-6">
+
+            <div className="relative h-48 w-full">
+
+              <img 
+
+                src={experience.image} 
+
+                alt={experience.title}
+
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+
+              />
+
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent" />
+
+            </div>
+
+            <div className="p-6 relative">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0">
                   <Users className="w-6 h-6 text-blue-400" />
