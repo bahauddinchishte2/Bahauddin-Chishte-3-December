@@ -11,10 +11,16 @@ import {
 } from 'lucide-react';
 
 export default function Experience() {
-  const [expandedId, setExpandedId] = useState<number | null>(null);
+  const [expandedIds, setExpandedIds] = useState<number[]>([]);
 
   const toggleExpand = (index: number) => {
-    setExpandedId(expandedId === index ? null : index);
+    setExpandedIds(prev => {
+      if (prev.includes(index)) {
+        return prev.filter(id => id !== index);
+      } else {
+        return [...prev, index];
+      }
+    });
   };
 
   const getTypeColor = (type: string) => {
@@ -75,7 +81,7 @@ export default function Experience() {
                   <Calendar className="w-4 h-4" />
                   <span>{experience.period}</span>
                 </div>
-                {expandedId === index ? (
+                {expandedIds.includes(index) ? (
                   <ChevronUp className="w-5 h-5" />
                 ) : (
                   <ChevronDown className="w-5 h-5" />
@@ -84,7 +90,7 @@ export default function Experience() {
             </button>
 
             {/* Expanded Content */}
-            {expandedId === index && (
+            {expandedIds.includes(index) && (
               <div className="px-6 py-5 border-t border-slate-800/50">
                 <div className="pl-16">
                   {/* Description */}
