@@ -92,11 +92,9 @@ export default function Hero() {
             </div>
             
             <div className="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
-              <p>Growing up in an underprivileged community, I witnessed firsthand the challenges that many families face daily. These experiences didn't just shape my perspective; they ignited a passion for creating meaningful change through technology and social entrepreneurship.</p>
               
-              <p>As I navigated my journey into software engineering, I carried with me a deep understanding of how technology could bridge crucial gaps in society. My background became my strength, providing unique insights into developing solutions that not only solve technical challenges but also address real social needs.</p>
-              
-              <p>Today, I blend my software engineering expertise with a commitment to social business initiatives. I believe technology has the power to level playing fields and create opportunities for those who need them most. This dual passion drives me to build solutions that are not just technically excellent but also socially impactful.</p>
+              <p>I believe opportunity should never be limited by circumstance. Growing up, I saw how a lack of resources held people back—including my own family. But I also learned that with the right tools, anyone can change their future. That’s what drives me—using technology, entrepreneurship, and education to break barriers and create opportunities. Whether it's building platforms, mentoring students, or launching new ideas, I’m always looking for ways to make an impact and help others move forward.
+</p>
             </div>
 
             <div className="grid grid-cols-3 gap-3 sm:gap-4 mt-6">
