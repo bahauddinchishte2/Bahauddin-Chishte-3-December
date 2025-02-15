@@ -14,7 +14,7 @@ export interface PersonalInfo {
 export const personalInfo: PersonalInfo = {
   name: 'Baha',
   role: 'Tech Entrepreneur',
-  bio: "I'm a tech entrepreneur who loves to solve real world problem using technology. Aside tech I love to work on marketing, product and business development",
+  bio: "I'm an emerging tech entrepreneur who loves to solve social problem using technology. Aside tech I like to work on marketing, product and business development",
   images: [
     'https://avatars.githubusercontent.com/u/91181868?v=4',
     'https://live.staticflickr.com/65535/54241877452_39dc62951f_k.jpg',

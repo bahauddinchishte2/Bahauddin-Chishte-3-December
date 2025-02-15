@@ -3,32 +3,41 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
-    title: "Earn4edu",
-    description: "A revolutionary AI-powered platform that transforms how we interact with data.",
-    tech: ["React", "TypeScript", "TensorFlow"],
-    live: "https://earn4edu.org",
-    image: "https://live.staticflickr.com/65535/54300859257_af9f01025c_k.jpg"
+    "title": "OnnoRokom School",
+    "description": "A free online learning platform providing academic and skill development resources for underprivileged students, serving 10K+ visitors daily.",
+    "tech": ["Next.js", "TypeScript", "TailwindCSS", "MongoDB"],
+    "live": "https://onnorokomschool.org",
+    "image": "https://live.staticflickr.com/65535/54300859257_af9f01025c_k.jpg"
   },
   {
-    title: "Ajker-Bazardor.onfo",
-    description: "Real-time collaboration tool for remote teams with advanced features.",
-    tech: ["Next.js", "Socket.io", "MongoDB"],
-    live: "https://ajker-bazardor.info",
-    image: "https://live.staticflickr.com/65535/54301984598_2645d9dc9a_k.jpg" },
-  {
-    title: "Agency Website, oLab",
-    description: "Real-time collaboration tool for remote teams with advanced features.Real-time collaboration tool for remote teams with advanced featuresReal-time collaboration tool for remote teams with advanced features",
-    tech: ["Next.js", "Socket.io", "MongoDB"],
-    live: "https://olab.com.au",
-    image: "https://live.staticflickr.com/65535/54301972399_fbe8390645_k.jpg"
+    "title": "Earn4Edu",
+    "description": "An initiative helping low-income students gain digital skills, earn online, and build careers with guided mentorship and real-world job placements.",
+    "tech": ["React", "Next.js", "TypeScript", "Node.js"],
+    "live": "https://earn4edu.org",
+    "image": "https://live.staticflickr.com/65535/54300859257_af9f01025c_k.jpg"
   },
   {
-    title: "Dev Sonket",
-    description: "Real-time collaboration tool for remote teams with advanced features.",
-    tech: ["Next.js", "Socket.io", "MongoDB"],
-    live: "https://devsonket.com",
-    image: "https://live.staticflickr.com/65535/54301984603_c9be18679a_k.jpg"
+    "title": "Bazardor",
+    "description": "Bangladesh’s essential item price tracker, ensuring transparency and fairness in the market by comparing real-time prices.",
+    "tech": ["Next.js", "TypeScript", "MongoDB", "TailwindCSS"],
+    "live": "https://ajker-bazardor.info",
+    "image": "https://live.staticflickr.com/65535/54301984598_2645d9dc9a_k.jpg"
   },
+  {
+    "title": "oLab Agency Website",
+    "description": "The official site for oLab, an Australian software automation and digital marketing agency, designed and developed from scratch.",
+    "tech": ["Astro", "React", "TypeScript", "TailwindCSS"],
+    "live": "https://olab.com.au",
+    "image": "https://live.staticflickr.com/65535/54301972399_fbe8390645_k.jpg"
+  },
+  {
+    "title": "Dev Sonket",
+    "description": "Bangla's first programming cheat sheet platform, offering resources on AI, Python, and Prompt Engineering, with an active GitHub community.",
+    "tech": ["Next.js", "TypeScript", "Markdown", "TailwindCSS"],
+    "live": "https://devsonket.com",
+    "image": "https://live.staticflickr.com/65535/54301984603_c9be18679a_k.jpg"
+  }
+  
 ];
 
 export default function Projects() {
